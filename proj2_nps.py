@@ -118,6 +118,18 @@ def get_site_instance(site_url):
 
 
 def cache_to_obj(dict_ls):
+    '''Turn the cache dict into NationalSite object.
+
+    Parameters
+    ----------
+    dict_ls: list
+        a list of dictionaries from the cache
+
+    Returns
+    -------
+    ins_ls
+        a list of NationalSite objects 
+    '''
     ins_ls = []
     for dict in dict_ls:
         ins_ls.append(
