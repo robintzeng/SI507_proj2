@@ -1,1 +1,4 @@
 *.pdf
+*.json
+__pycache__
+secrets.py
