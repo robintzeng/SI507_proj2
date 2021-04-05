@@ -240,9 +240,7 @@ if __name__ == "__main__":
     PARK_CACHE_DICT = open_cache(PARK_CACHE_FILENAME)
     NEAR_CACHE_DICT = open_cache(NEAR_CACHE_FILENAME)
     state_url_dict = build_state_url_dict()
-
     outerLoop = True
-
     while outerLoop:
         state_name = input(
             "Enter a state name (e.g. Michigan, michigan) or exit: ").lower()
